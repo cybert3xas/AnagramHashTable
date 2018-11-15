@@ -22,7 +22,7 @@ class HashTable:
         self.size = loadFactor
     
     '''
-    'hash' funtion takes the ascii value of a string adn returns that value % table.size
+    'hash' funtion takes the ascii value of a string and returns that value % table.size
     this will gurantee less collisons. 
     '''
     def hash(self, word):
